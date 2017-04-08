@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+
+            >
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/skyblue_logo_qq_checked"
+                android:background="@color/colorWrite"
+                />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorWrite"
+                android:src="@mipmap/skyblue_logo_sinaweibo_checked"
+                />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorWrite"
+                android:src="@mipmap/skyblue_logo_wechat_checked"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_margin="20dp"
+            android:text="更多登陆方式>"
+            android:background="@drawable/textshape"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/id_listview_categories"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        ></ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorWrite"
+            android:src="@mipmap/ic_me_item_setup"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorWrite"
+            android:src="@mipmap/ic_me_item_download_comic"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/colorWrite"
+            android:src="@mipmap/ic_home_date"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
